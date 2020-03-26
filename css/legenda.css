@@ -1,0 +1,117 @@
+body {scroll-behavior: smooth;
+	max-width: 1349px;
+	background-color: #FFF5BA;}
+nav {padding-right: 7.5%;
+	padding-left: 5%;
+	position: sticky;
+	top:0;}
+.topnav {overflow: hidden;}
+.topnav a {float: left;
+	display: block;
+	text-align: center;
+	padding-right: 5%;
+	color: #730202;}
+.topnav a:link {color: #730202;
+	text-decoration-line: none;}
+.topnav a:visited {color: #730202;
+	text-decoration-line: none;}
+.topnav a:active {color:#730202;
+	text-decoration-line: underline;}
+#navbar {float: center;
+	text-align: center;
+	padding-left: 73%;
+	font-size: 1.3em;
+	position: sticky;}
+#navbar a:hover {color: #730202;
+	text-decoration-line: underline;}
+#title {font-family: 'Sacramento', cursive;
+font-size: 1em;
+	color: #730202;
+	word-spacing: 2em;}
+#title a:link {color:#730202;
+	text-decoration-line: none;}
+#title a:visited {color: #730202;
+	text-decoration-line: none;}
+#title a:hover {color: #730202;
+	text-decoration-line: none;
+	}
+::-moz-selection {color: white;
+	background: #730202;}
+::selection {color: white;
+	background: #730202;}
+a:link {color: #730202;
+	text-decoration-line: none;}
+a:visited {color: #730202;
+	text-decoration-line: none;}
+a:hover {color: #730202;
+	text-decoration-line: none;}
+
+	
+.background-image {background-position: left top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	max-height: 730px;
+	min-height: 182.5px;
+	width: auto;}
+.top {position: absolute;
+	left: 30em;
+	top: 10.9em;
+	transform: translate(-55%, -65%);
+	padding-bottom: 2%;
+	text-align: left;
+	font-family: 'Sacramento', cursive;
+	word-spacing: 0.5em;
+	font-size: 1.5em;
+	color: #730202;}
+.bottom {position: absolute;
+	left: 34.4em;
+	top: 17.8em;
+	padding-top: 5%;
+	transform: translate(-65%, -75%);
+	text-align: left;
+	font-family: 'Sacramento', cursive;
+	word-spacing: 0.5em;
+	font-size: 1.5em;
+	color: #730202;}
+.row {display: flex;
+	flex-direction: row;
+	}
+img {padding-right: 3%;}
+.button {border-radius: 10%;
+	background-color: #FFE1A6;
+	text-align: center;
+	font-size: 50%;
+	padding: 1%;
+	width: 30%;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5%;
+	border-style: none;
+	font-family: 'Quicksand', sans-serif;
+	color:#730202;
+	font-weight: bold;}
+.button span {cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;}
+.button span:after {content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;}
+.button:hover span { padding-right: 25px; }
+.button:hover span:after {opacity: 1;
+	right:0;}
+#footer {position: relative;
+	text-align: center;}
+.container-fluid {position: relative;
+	top: 5%;
+	padding-top: 2%;
+	padding-bottom: 5%;
+	background-color: #730202;
+	word-spacing: 2em;}
+.container-fluid a:link {color: white;}
+.container-fluid a:visited {color: white;}
+.container-fluid a:hover {color: #FFF5BA;
+	padding-bottom: 3%;}
