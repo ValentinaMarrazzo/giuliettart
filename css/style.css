@@ -50,8 +50,7 @@ font-size: 1em;
 	background: #730202;}
 ::selection {color: white;
 	background: #730202;}
-.container {padding-left: 8%;
-	}
+
 a:link {color: #730202;
 	text-decoration-line: none;}
 a:visited {color: #730202;
@@ -66,7 +65,7 @@ a:hover {color: #730202;
 	min-height: 182.5px;
 	width: auto;}
 .centered {position: absolute;
-	left: 48em;
+	left: 40em;
 	top:28.2em;
 	transform: translate(-70%, -60%);
 	text-align: center;}
