@@ -53,21 +53,57 @@ a:visited {color: #730202;
 a:hover {color: #730202;
 	text-decoration-line: none;}
 
-/*    <img class="background-image" src="img/sfondo.png" width="593px" height="548px"> .background-image {/*background-position: left top;
+#tran2 {background-position: left top; 
+	background-repeat: no-repeat;
+	padding-right: 19%;
+	padding-left: 0;
+	max-width: 10em;
+	min-width: 4.5em;
+	height: auto;}
+
+#tran3 {background-position: right top; 
+	background-repeat: no-repeat;
+	padding-left: 0; 
+	padding-right: 19%;
+	max-width: 10em;
+	min-width: 4.5em;
+	height: auto;} 
+
+#tran1 {background-position: left bottom; 
+	background-repeat: no-repeat; 
+	padding-top: 3%;
+	padding-right: 19%;
+	padding-left: 0;
+	max-width: 10em;
+	min-width: 4.5em;
+	height: auto;}
+
+#tran4 {
+	background-position: right bottom; 
+	background-repeat: no-repeat; 
+	padding-top: 3%;
+	padding-left: 19%; 
+	padding-right: 0;
+	max-width: 12em;
+	min-width: 4.5em;
+	height: auto;}
+#tran1 #tran2 #tran3 #tran4 {position: fixed;}
+
+.background-image {background-position: left top;
 	background-position: right top;
 	left: 85%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	max-height: 730px;
 	min-height: 182.5px;
-	width: auto;}*/
+	width: auto;}
 
 .centered {position: absolute;
 	left: 40em;
 	top:28.2em;
 	transform: translate(-70%, -60%);
 	text-align: center;
-	background-image: url(img/tran2.png) left top no-repeat, url(img/tran3,png) right top no-repeat, url(img/tran1.png) left bottom no-repeat, url(img/sfondo.png) right bottom no-repeat, url(img/tran4.png) right bottom no-repeat;}
+/*background-image: url(img/tran2.png) left top no-repeat, url(img/tran3,png) right top no-repeat, url(img/tran1.png) left bottom no-repeat, url(img/sfondo.png) right bottom no-repeat, url(img/tran4.png) right bottom no-repeat;}*/
 h1 {font-family: 'Great Vibes', cursive;
 	/*word-spacing: 0.5em;*/
 	font-size: 3em;
