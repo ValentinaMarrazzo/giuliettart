@@ -1,9 +1,6 @@
 body {scroll-behavior: smooth;
 	max-width: 1349px;
 	background-color: #FFF5BA;
-	background-image: url(img_tran2.png), url(img_tran3,png), url(img_tran1.png), url(img_sfondo.png), url(img_tran4.png);
-	background-position: left top, right top, left bottom, left bottom, left bottom;
-	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
 	animation: transitionIn 0.75s;
 	}
 @keyframes transitionIn { 
@@ -69,7 +66,8 @@ a:hover {color: #730202;
 	left: 40em;
 	top:28.2em;
 	transform: translate(-70%, -60%);
-	text-align: center;}
+	text-align: center;
+	background-image: url(img/tran2.png) left top no-repeat, url(img/tran3,png) right top no-repeat, url(img/tran1.png) left bottom no-repeat, url(img/sfondo.png) right bottom no-repeat, url(img/tran4.png) right bottom no-repeat;}
 h1 {font-family: 'Great Vibes', cursive;
 	/*word-spacing: 0.5em;*/
 	font-size: 3em;
