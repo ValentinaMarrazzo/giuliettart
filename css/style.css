@@ -1,7 +1,11 @@
 body {scroll-behavior: smooth;
 	max-width: 1349px;
 	background-color: #FFF5BA;
-	animation: transitionIn 0.75s;}
+	background-image: url(img_tran2.png), url(img_tran3,png), url(img_tran1.png), url(img_sfondo.png), url(img_tran4.png);
+	background-position: left top, right top, left bottom, left bottom, left bottom;
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+	animation: transitionIn 0.75s;
+	}
 @keyframes transitionIn { 
 	from {
 		opacity: 0;
@@ -52,14 +56,15 @@ a:visited {color: #730202;
 a:hover {color: #730202;
 	text-decoration-line: none;}
 
-.background-image {/*background-position: left top;*/
-	float: right;
+/*    <img class="background-image" src="img/sfondo.png" width="593px" height="548px"> .background-image {/*background-position: left top;
+	background-position: right top;
 	left: 85%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	max-height: 730px;
 	min-height: 182.5px;
-	width: auto;}
+	width: auto;}*/
+
 .centered {position: absolute;
 	left: 40em;
 	top:28.2em;
