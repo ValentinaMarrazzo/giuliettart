@@ -55,7 +55,7 @@ a:hover {color: #730202;
 
 #tran2 {background-position: left top; 
 	background-repeat: no-repeat;
-	padding-right: 19%;
+	padding-right: 25%;
 	padding-left: 0;
 	max-width: 10em;
 	min-width: 4.5em;
@@ -64,34 +64,34 @@ a:hover {color: #730202;
 #tran3 {background-position: right top; 
 	background-repeat: no-repeat;
 	padding-left: 0; 
-	padding-right: 19%;
+	padding-right: 25%;
 	max-width: 10em;
 	min-width: 4.5em;
 	height: auto;} 
 
-#tran1 {background-position: left bottom; 
+#tran1 {background-position: left; 
 	background-repeat: no-repeat; 
 	padding-top: 3%;
-	padding-right: 19%;
+	padding-right: 25%;
 	padding-left: 0;
 	max-width: 10em;
 	min-width: 4.5em;
 	height: auto;}
 
 #tran4 {
-	background-position: right bottom; 
+	background-position: right; 
 	background-repeat: no-repeat; 
 	padding-top: 3%;
-	padding-left: 19%; 
+	padding-left: 25%; 
 	padding-right: 0;
 	max-width: 12em;
 	min-width: 4.5em;
 	height: auto;}
-#tran1 #tran2 #tran3 #tran4 {position: fixed;}
+#tran1 #tran2 #tran3 #tran4 {position: fixed; opacity: 0.5;}
 
 .background-image {background-position: left top;
 	background-position: right top;
-	left: 85%;
+	left: 95%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	max-height: 730px;
