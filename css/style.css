@@ -39,13 +39,7 @@ nav {padding-right: 7.5%;
 font-size: 1em;
 	color: #730202;
 	word-spacing: 2em;}
-#title a:link {color:#730202;
-	text-decoration-line: none;}
-#title a:visited {color: #730202;
-	text-decoration-line: none;}
-#title a:hover {color: #730202;
-	text-decoration-line: none;
-	}
+
 ::-moz-selection {color: white;
 	background: #730202;}
 ::selection {color: white;
@@ -58,7 +52,8 @@ a:visited {color: #730202;
 a:hover {color: #730202;
 	text-decoration-line: none;}
 
-.background-image {background-position: left top;
+.background-image {/*background-position: left top;*/
+	background-position: right top;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	max-height: 730px;
@@ -69,8 +64,8 @@ a:hover {color: #730202;
 	top:28.2em;
 	transform: translate(-70%, -60%);
 	text-align: center;}
-h1 {font-family: 'Sacramento', cursive;
-	word-spacing: 0.5em;
+h1 {font-family: 'Great Vibes', cursive;
+	/*word-spacing: 0.5em;*/
 	font-size: 2em;
 	color: #730202;  }
 p {font-family: 'Quicksand', sans-serif;
