@@ -56,9 +56,9 @@ a:hover {color: #730202;
 	min-height: 182.5px;
 	width: auto;}
 .centered {position: absolute;
-	left: 36em;
-	top:26.8em;
-	transform: translate(-64%, -56%);
+	left: 26em;
+	top:26em;
+	transform: translate(-46%, -54%);
 	text-align: center;}
 h1 { font-family: 'Great Vibes', cursive;
 	font-size: 3em;
