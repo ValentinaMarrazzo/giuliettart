@@ -53,7 +53,7 @@ a:visited {color: #730202;
 a:hover {color: #730202;
 	text-decoration-line: none;}
 
-#tran2 {background-position: left top; 
+/*#tran2 {background-position: left top; 
 	background-repeat: no-repeat;
 	padding-right: 25%;
 	padding-left: 0;
@@ -87,7 +87,7 @@ a:hover {color: #730202;
 	max-width: 12em;
 	min-width: 4.5em;
 	height: auto;}
-#tran1 #tran2 #tran3 #tran4 {position: fixed; opacity: 0.5;}
+#tran1 #tran2 #tran3 #tran4 {position: fixed; opacity: 0.5;}*/
 
 .background-image {background-position: left top;
 	background-position: right top;
