@@ -49,16 +49,16 @@ a:hover {color: #730202;
 	text-decoration-line: none;}
 
 .background-image {background-position: right top;
-	padding-left: 76%;
+	padding-left: 69%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	max-height: 730px;
 	min-height: 182.5px;
 	width: auto;}
 .centered {position: absolute;
-	left: 38em;
+	left: 36em;
 	top:27.8em;
-	transform: translate(-66%, -59%);
+	transform: translate(-64%, -59%);
 	text-align: center;}
 h1 {font-family: 'Great Vibes', cursive;
 	font-size: 3em;
