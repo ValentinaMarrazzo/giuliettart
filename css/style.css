@@ -1,5 +1,4 @@
 body {scroll-behavior: smooth;
-	max-width: 1349px;
 	background-color: #FFF5BA;
 	animation: transitionIn 0.75s;}
 @keyframes transitionIn { 
