@@ -53,7 +53,8 @@ a:hover {color: #730202;
 	text-decoration-line: none;}
 
 .background-image {/*background-position: left top;*/
-	background-position: right top;
+	float: right;
+	left: 85%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	max-height: 730px;
@@ -66,7 +67,7 @@ a:hover {color: #730202;
 	text-align: center;}
 h1 {font-family: 'Great Vibes', cursive;
 	/*word-spacing: 0.5em;*/
-	font-size: 2em;
+	font-size: 3em;
 	color: #730202;  }
 p {font-family: 'Quicksand', sans-serif;
 	color:#730202;}
