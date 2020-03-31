@@ -62,7 +62,7 @@ a:hover {color: #730202;
 h1 { font-family: 'Great Vibes', cursive;
 	font-size: 3em;
 	color: #730202;  }
-p {font-family: 'Quicksand', sans-serif;
+p, h2, h3 {font-family: 'Quicksand', sans-serif;
 	color:#730202;}
 .button {border-radius: 7%;
 	background-color: #FFE1A6;
