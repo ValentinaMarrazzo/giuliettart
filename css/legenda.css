@@ -61,7 +61,7 @@ a:hover {color: #730202;
 	min-height: 182.5px;
 	width: auto;}*/
 .top {position: absolute;
-	left: 30em;
+	left: 28em;
 	top: 10.9em;
 	transform: translate(-55%, -65%);
 	padding-bottom: 2%;
@@ -71,7 +71,7 @@ a:hover {color: #730202;
 	font-size: 1.5em;
 	color: #730202;}
 .bottom {position: absolute;
-	left: 34.4em;
+	left: 32.4em;
 	top: 17.8em;
 	padding-top: 5%;
 	transform: translate(-65%, -75%);
