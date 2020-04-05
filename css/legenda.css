@@ -1,5 +1,13 @@
 body {scroll-behavior: smooth;
-	background-color: #FFF5BA;}
+	background-color: #FFF5BA;
+	background-image: url('background/tran1.gif'), 
+	url('background/tran2.gif'),
+	url('background/tran3.gif'),
+	url('background/tran4.gif');
+	background-origin: border-box, border-box, border-box, border-box;
+	background-repeat: no-repeat;
+	background-position: left top, right top, 0 70%, 100% 70%;
+	background-attachment: static;}
 nav {padding-right: 7.5%;
 	padding-left: 5%;
 	position: sticky;
@@ -103,14 +111,17 @@ img {padding-right: 3%;}
 .button:hover span:after {opacity: 1;
 	right:0;}
 #footer {position: relative;
-	text-align: center;}
+	width: 100%;
+	text-align: center;
+	border-top-color: #730202;
+	border-top-style: solid;
+	border-top-width: 3em;}
 .container-fluid {position: relative;
 	top: 5%;
 	padding-top: 2%;
 	padding-bottom: 5%;
-	background-color: #730202;
 	word-spacing: 2em;}
-.container-fluid a:link {color: white;}
-.container-fluid a:visited {color: white;}
-.container-fluid a:hover {color: #FFF5BA;
+.container-fluid a:link {color: #730202;}
+.container-fluid a:visited {color: #730202;}
+.container-fluid a:hover {color: #730202;
 	padding-bottom: 3%;}
