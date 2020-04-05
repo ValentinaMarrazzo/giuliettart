@@ -55,12 +55,12 @@ a:visited {color: #730202;
 a:hover {color: #730202;
 	text-decoration-line: none;}
 
-.background-image {background-position: right top;
+/*.background-image {background-position: right top;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	max-height: 730px;
 	min-height: 182.5px;
-	width: auto;}
+	width: auto;}*/
 
 
 .centered {position: absolute;
@@ -110,9 +110,7 @@ p, h2, h3 {font-family: 'Quicksand', sans-serif;
 #footer {position: relative;
 	width: 100%;
 	text-align: center;
-	border-top-color: #730202;
-	border-top-style: solid;
-	border-top-width: 3em;}
+		}
 .container-fluid {position: relative;
 	top: 5%;
 	padding-top: 2%;
