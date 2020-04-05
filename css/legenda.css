@@ -54,12 +54,12 @@ a:hover {color: #730202;
 	text-decoration-line: none;}
 
 	
-.background-image {background-position: left top;
+/*.background-image {background-position: left top;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	max-height: 730px;
 	min-height: 182.5px;
-	width: auto;}
+	width: auto;}*/
 .top {position: absolute;
 	left: 30em;
 	top: 10.9em;
