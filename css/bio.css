@@ -26,7 +26,7 @@ nav {padding-right: 7.5%;
 #title {font-family: 'Great Vibes', cursive;
 font-size: 1em;
 	color: #730202;
-	word-spacing: 2em;}
+	}
 #title a:link {color:#730202;
 	text-decoration-line: none;}
 #title a:visited {color: #730202;
@@ -163,5 +163,5 @@ p.text2 {width: 16em;
 	word-spacing: 2em;}
 .container-fluid a:link {color: #730202;}
 .container-fluid a:visited {color: #730202;}
-.container-fluid a:hover {color: #730202;
+.container-fluid a:hover {color: #730202; 
 	padding-bottom: 3%;}
