@@ -113,9 +113,7 @@ img {padding-right: 3%;}
 #footer {position: relative;
 	width: 100%;
 	text-align: center;
-	border-top-color: #730202;
-	border-top-style: solid;
-	border-top-width: 3em;}
+		}
 .container-fluid {position: relative;
 	top: 5%;
 	padding-top: 2%;
