@@ -17,7 +17,9 @@ nav {padding-right: 7.5%;
 	display: block;
 	text-align: center;
 	padding-right: 5%;
-	color: #730202;}
+	color: #730202;
+	font-family: 'Quicksand', sans-serif;
+	}
 .topnav a:link {color: #730202;
 	text-decoration-line: none;}
 .topnav a:visited {color: #730202;
@@ -71,7 +73,7 @@ a:hover {color: #730202;
 	font-size: 1.5em;
 	color: #730202;}
 .bottom {position: absolute;
-	left: 30.4em;
+	left: 30em;
 	top: 17.8em;
 	padding-top: 5%;
 	transform: translate(-65%, -75%);
