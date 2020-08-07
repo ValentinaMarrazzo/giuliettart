@@ -24,7 +24,7 @@ nav {padding-right: 7.5%;
 #navbar a:hover {color: #730202;
 	text-decoration-line: underline;}
 #title {font-family: 'Great Vibes', cursive;
-font-size: 1em;
+font-size: 1.9em;
 	color: #730202;
 	}
 #title a:link {color:#730202;
@@ -43,8 +43,6 @@ font-size: 1em;
 	background: #730202;}
 ::selection {color: white;
 	background: #730202;}
-.container {padding-left: 8%;
-	}
 a:link {color: #730202;
 	text-decoration-line: none;}
 a:visited {color: #730202;
@@ -53,71 +51,20 @@ a:hover {color: #730202;
 	text-decoration-line: none;}
 
 
-
-#cit {position: relative;
-	/*padding-top: 5%;
-	padding-right: 8%;*/
-	text-align: center;
-	max-width: 77em;
-	min-width: 20em;}
-#tran2 { background-image: url("img_tran2.png"); 
-	background-position: left top; 
-	background-repeat: no-repeat;
-	padding-right: 19%;
-	padding-left: 5%;
-	max-width: 12em;
-	min-width: 4.5em;
-	height: auto;} 
-#tran3 { background-image: url("img_tran3.png"); 
-	background-position: right top; 
-	background-repeat: no-repeat;
-	padding-left: 19%; 
-	padding-right: 5%;
-	/*max-width: 192.66px;
-	min-width: 72.25px;*/
-	max-width: 12em;
-	min-width: 4.5em;
-	height: auto;} 
-#tran1 { background-image: url("img_tran1.png"); 
-	background-position: left bottom; 
-	background-repeat: no-repeat; 
-	padding-top: 3%;
-	padding-right: 19%;
-	padding-left: 5%;
-	max-width: 12em;
-	min-width: 4.5em;
-	height: auto;}
-#tran4 {background-image: url("img_tran4.png"); 
-	background-position: right bottom; 
-	background-repeat: no-repeat; 
-	padding-top: 3%;
-	padding-left: 19%; 
-	padding-right: 5%;
-	max-width: 12em;
-	min-width: 4.5em;
-	height: auto;}
-#tran1 #tran2 #tran3 #tran4 {position: fixed;}
-.centered {position: absolute;
-	/*left: 34%;
-	right: 29%;
-	bottom: 9%;
-	transform: translate(-34%, -29%,-9%);*/
-	top: 50%;
-	left: 45%;
-	transform: translate(-50%, -45%);  }
 section {text-align: center;
 	font-family: 'Quicksand', sans-serif;
 	color:#730202;
 	font-size: auto;
 	padding-right: 11%;
-	padding-left: 5%;
+	padding-left: 13%;
 	}
 h1 {font-family: 'Great Vibes', cursive;
 	word-spacing: 0.5em;
-	font-size: 75%;
+	font-size: 95%;
 	font-weight: bold;
 	color: #730202;
-	text-align: right;}
+	text-align: center;
+	transform: translate(-80%, 69%);}
 #bio {position: relative;
 	padding-top: 6%;
 	padding-left: 2%
@@ -127,7 +74,7 @@ div { font-family: 'Quicksand', sans-serif;
 	font-size: 1em;}
 #portrait { width: 30%;
 	height: auto;
-	left: 40%;
+	transform: translate(-30%);
 	border: 4px solid white; 
 	border-radius: 3%;}
 p.text1::first-letter {font-size: 3em;
