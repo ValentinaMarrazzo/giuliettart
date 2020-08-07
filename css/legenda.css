@@ -1,13 +1,14 @@
 body {scroll-behavior: smooth;
-	background-color: #FFF5BA;
+	background-color: #FFF5B3;
 	background-image: url('background/tran1.gif'), 
 	url('background/tran2.gif'),
-	url('background/tran3.gif'),
-	url('background/tran4.gif');
-	background-origin: border-box, border-box, border-box, border-box;
+	url('background/tran4.gif'),
+	url('background/tran3.gif');
+	background-origin: padding-box, padding-box, padding-box, padding-box;
 	background-repeat: no-repeat;
-	background-position: left top, right top, 0 70%, 100% 70%;
-	background-attachment: static;}
+	background-position: 3em 5em, 63em 5em, 3em 30em, 63em 30em;
+	background-attachment: static;
+	}
 nav {padding-right: 7.5%;
 	padding-left: 5%;
 	position: sticky;
@@ -34,7 +35,7 @@ nav {padding-right: 7.5%;
 #navbar a:hover {color: #730202;
 	text-decoration-line: underline;}
 #title {font-family: 'Great Vibes', cursive;
-font-size: 1em;
+font-size: 1.9em;
 	color: #730202;
 	}
 #title a:link {color:#730202;
@@ -56,16 +57,10 @@ a:hover {color: #730202;
 	text-decoration-line: none;}
 
 	
-/*.background-image {background-position: left top;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	max-height: 730px;
-	min-height: 182.5px;
-	width: auto;}*/
 .top {position: absolute;
-	left: 24em;
-	top: 10.9em;
-	transform: translate(-55%, -65%);
+	left: 27em;
+	top: 17em;
+	transform: translate(-45%, -65%);
 	padding-bottom: 2%;
 	text-align: left;
 	font-family: 'Great Vibes', cursive;
@@ -73,15 +68,16 @@ a:hover {color: #730202;
 	font-size: 1.5em;
 	color: #730202;}
 .bottom {position: absolute;
-	left: 28em;
-	top: 17.8em;
+	left: 29em;
+	top: 21.8em;
 	padding-top: 5%;
-	transform: translate(-65%, -75%);
+	transform: translate(-60%, -75%);
 	text-align: left;
 	font-family: 'Great Vibes', cursive;
 	word-spacing: 0.5em;
 	font-size: 1.5em;
-	color: #730202;}
+	color: #730202;
+	}
 .row {display: flex;
 	flex-direction: row;
 	}
@@ -113,6 +109,7 @@ img {padding-right: 3%;}
 .button:hover span:after {opacity: 1;
 	right:0;}
 #footer {position: relative;
+	top: 40em;
 	width: 100%;
 	text-align: center;
 		}
