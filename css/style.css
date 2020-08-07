@@ -1,12 +1,12 @@
 body {scroll-behavior: smooth;
-	background-color: #FFF5BA;
+	background-color: #FFF5B3;
 	background-image: url('background/tran1.gif'), 
 	url('background/tran2.gif'),
-	url('background/tran3.gif'),
-	url('background/tran4.gif');
-	background-origin: border-box, border-box, border-box, border-box;
+	url('background/tran4.gif'),
+	url('background/tran3.gif');
+	background-origin: padding-box, padding-box, padding-box, padding-box;
 	background-repeat: no-repeat;
-	background-position: left top, right top, 0 70%, 100% 70%;
+	background-position: 3em 5em, 63em 5em, 3em 30em, 63em 30em;
 	background-attachment: static;
 	animation: transitionIn 0.75s;}
 @keyframes transitionIn { 
@@ -55,22 +55,16 @@ a:visited {color: #730202;
 a:hover {color: #730202;
 	text-decoration-line: none;}
 
-/*.background-image {background-position: right top;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	max-height: 730px;
-	min-height: 182.5px;
-	width: auto;}*/
-
 
 .centered {position: absolute;
-	left: 24em;
-	top:24em;
-	transform: translate(-42%, -49%);
-	text-align: center;}
+	transform: translate(90%, 89%);
+	text-align: center;
+	}
 h1 { font-family: 'Great Vibes', cursive;
 	font-size: 3em;
-	color: #730202;  }
+	color: #730202; 
+	transform: translateX(10%);
+	}
 p, h2, h3 {font-family: 'Quicksand', sans-serif;
 	color:#730202;}
 .button {border-radius: 7%;
@@ -100,15 +94,16 @@ p, h2, h3 {font-family: 'Quicksand', sans-serif;
 .button:hover span {padding-right: 17%}
 .button:hover span:after {opacity: 1;
 	right: 0;}
-#infoex {margin-right: 2%;
-	margin-left: 2%; 
+#infoex {margin-right: 19%;
+	margin-left: 19%; 
 	border-style: none;
 	background-color: #FFE1A6;
 	padding: 2%;
 	font-family: 'Quicksand', sans-serif;
 	color:#730202;}
 #footer {position: relative;
-	width: 100%;
+	top: 40em;
+		width: 100%;
 	text-align: center;
 		}
 .container-fluid {position: relative;
