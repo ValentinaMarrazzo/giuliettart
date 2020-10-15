@@ -1,0 +1,69 @@
+nav {padding-right: 7.5%;
+	padding-left: 5%;
+	position: sticky;
+	top:0;}
+.topnav {overflow: hidden;}
+.topnav a {float: left;
+	display: block;
+	text-align: center;
+	padding-right: 5%;
+	color: #730202;}
+.topnav a:link {color: #730202;
+	text-decoration-line: none;}
+.topnav a:visited {color: #730202;
+	text-decoration-line: none;}
+.topnav a:active {color:#730202;
+	text-decoration-line: underline;}
+#navbar {float: center;
+	text-align: center;
+	padding-left: 73%;
+	font-size: 1.3em;
+	position: sticky;}
+#navbar a:hover {color: #730202;
+	text-decoration-line: underline;}
+
+::-moz-selection {color: white;
+	background: #730202;}
+::selection {color: white;
+	background: #730202;}
+
+a:link {color: #730202;
+	text-decoration-line: none;}
+a:visited {color: #730202;
+	text-decoration-line: none;}
+a:hover {color: #730202;
+	text-decoration-line: none;}
+body {scroll-behavior: smooth;
+	background-color: #FFF5B3;}
+h1 { font-family: 'Great Vibes', cursive;
+	font-size: 3.9vw;
+	color: #730202; 
+	transform: translateX(10%);
+	}
+p, h2, h3 {font-family: 'Quicksand', sans-serif;
+	color:#730202;}
+section {
+	padding-bottom: 10%;
+}
+.container-fluid {position: relative;
+	text-align: center;
+		}
+#title {
+	background-image: url('background/backang.gif');
+	background-origin: content-box;
+	background-repeat: no-repeat;
+	background-attachment: static;
+	background-position: center;
+	background-size: contain;
+	position: center; 
+	height: 32em;
+	}
+.row {display: flex;
+	flex-direction: row;
+	width: 30%;
+	margin-left: 25%;
+	margin-bottom: 1%;}
+.column {display: flex;
+	flex-direction: column;
+	margin-left: 2%;
+	}
