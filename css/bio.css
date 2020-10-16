@@ -99,16 +99,4 @@ p.text2 {width: 16em;
 #c2 {padding-top: 2%;}
 #c3 {padding-top: 3%}
 #c2 #c3 {font-size: 1em;}
-#footer {position: relative;
-	width: 100%;
-	text-align: center;
-		}
-.container-fluid {position: relative;
-	top: 5%;
-	padding-top: 2%;
-	padding-bottom: 5%;
-	word-spacing: 2em;}
-.container-fluid a:link {color: #730202;}
-.container-fluid a:visited {color: #730202;}
-.container-fluid a:hover {color: #730202; 
-	padding-bottom: 3%;}
+
